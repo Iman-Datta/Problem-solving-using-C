@@ -7,4 +7,5 @@ int main() {
     b = num - (a * 10);
     printf("The last digit of your number is: %d \n",b); //2
     printf("Your new modified number is: %d", a); //85
+    return 0;
 }

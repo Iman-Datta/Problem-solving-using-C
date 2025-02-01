@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    int num,a,b,c,d,e,f;
+    int num,a,b,c,d,e;
     printf("Enter your number: "); //852
     scanf("%d",&num);
     a = num / 10; //85
@@ -9,4 +9,5 @@ int main() {
     d = num % 10; //2 (last no.)
     e = (b*100)+(d*10)+c;
     printf("Your new modified number is: %d", e);
+    return 0;
 }

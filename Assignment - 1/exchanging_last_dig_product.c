@@ -13,4 +13,5 @@ int main() {
     f = (c*10) + b; //35
     printf("The both modified number are %d %d \n", e,f);
     printf("The multiplication of new two numbers is: %d \n", e * f);
+    return 0;
 }

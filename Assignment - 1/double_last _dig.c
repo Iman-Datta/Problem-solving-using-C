@@ -8,4 +8,5 @@ int main() {
     c = b * 2; //4
     d = (a*10) + c;
     printf("Your new modified number is: %d", d);
+    return 0;
 }

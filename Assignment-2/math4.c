@@ -1,17 +1,25 @@
-#include<stdio.h>
-#include<math.h>
+// Write a Program to print the summation of digits of user given input number.
 
-int main()
-{
-    int num,sum =0,r;
-    printf("Enter your number");
-    scanf("%d",&num); //114
-    while (num > 0)
-    {
-     r = num % 10; //4
-     sum = num +r; //4
-     num = num/10; //14
-     printf("%d",sum);
+#include <stdio.h>
+
+int main() {
+    int num, sum = 0, digit;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    
+    if (num < 0) {
+        num = -num; 
     }
+    
+    while (num > 0) {
+        digit = num % 10; 
+        sum += digit;
+        num /= 10;         
+    }
+
+    printf("Sum of digits: %d\n", sum);
+
     return 0;
 }

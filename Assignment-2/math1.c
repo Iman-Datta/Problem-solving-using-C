@@ -1,3 +1,5 @@
+//Write Program, which reads a, b and c as sides of a triangle and prints area.
+
 #include<stdio.h>
 #include<math.h>
 
@@ -9,4 +11,5 @@ int main() {
     printf("%lf \n", s);
     e = sqrt(s*(s-a)*(s-b)*(s-c));
     printf("The area of the triangle is: %lf",e);
+    return 0;
 }

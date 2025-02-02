@@ -33,6 +33,5 @@ int main(void) {
     else {
         printf("Grade: F\n");
     }
-
     return 0;
 }

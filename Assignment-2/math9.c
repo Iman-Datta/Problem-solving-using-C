@@ -1,3 +1,7 @@
+// Write a Program to generate all Armstrong numbers within a given range by user
+//Hint: 1634. (1^4 + 6^4 + 3^4 + 4^4) = 1634.
+
+
 #include <stdio.h>
 
 int main() {

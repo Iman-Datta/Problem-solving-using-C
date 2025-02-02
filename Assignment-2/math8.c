@@ -1,3 +1,8 @@
+// Write a Program to generate all Palindrome numbers within a given range by user. 
+// Hint: 13531.
+
+
+
 #include <stdio.h>
 
 int main() {

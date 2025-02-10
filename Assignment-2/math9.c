@@ -16,7 +16,7 @@ int main() {
         digit = temp % 10;
         fact = 1;
 
-       
+
         for (i = 1; i <= digit; i++) {
             fact *= i;
         }
@@ -29,6 +29,5 @@ int main() {
         printf("%d is a Krishna Murthy number.\n", num);
     else
         printf("%d is not a Krishna Murthy number.\n", num);
-
     return 0;
 }

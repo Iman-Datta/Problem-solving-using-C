@@ -36,7 +36,7 @@ int main() {
 
         
         if (num == reversednum) {
-            printf("%d ", num);
+            printf("%d \n", num);
         }
     }
     

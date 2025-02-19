@@ -1,14 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main() {
-    int rows = 4; // Number of rows in the pattern
+    int i,n;
+    printf("Enter number of row: ");
+    scanf("%d", &n);
+    for (i = 1; i<= n; i++){
+        for (int j=1; j <=n; j ++){
 
-    for (int i = 1; i <= rows; i++) {  // Loop for rows
-        for (int j = 1; j <= i; j++) { // Loop for printing '*'
-            printf("*");
+            printf("* ");
         }
-        printf("\n"); // Move to the next line after printing a row
+        printf("\n");
     }
-
     return 0;
 }

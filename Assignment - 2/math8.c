@@ -23,7 +23,6 @@ int main() {
 
     printf("Palindromic numbers in the range:\n");
 
-    
     for (int num = start; num <= end; num++) {
         int originalnum = num, reversednum = 0, remainder;
 
@@ -33,13 +32,12 @@ int main() {
             reversednum = reversednum * 10 + remainder;
             originalnum /= 10;
         }
-
         
         if (num == reversednum) {
             printf("%d \n", num);
         }
     }
-    
+
     printf("\n"); 
     return 0;
 }

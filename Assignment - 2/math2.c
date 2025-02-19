@@ -1,4 +1,4 @@
-// //Write a Program to check whether a number is prime or composite.
+//Write a Program to check whether a number is prime or composite.
 
 # include<stdio.h>
 # include<math.h>

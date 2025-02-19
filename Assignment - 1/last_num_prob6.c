@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, temp;
+    int num1, num2;
 
     printf("\nEnter two numbers again: ");
     scanf("%d %d", &num1, &num2); //85 25

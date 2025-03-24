@@ -6,5 +6,6 @@ int main() {
         printf("%d\t", c);
         c++;
     }
+    printf("\n the last value of c is %d\n", c);
     return 0;
 }

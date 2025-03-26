@@ -6,7 +6,7 @@ int main() {
 
     while (1) {
         printf("Press 1: To check your number is prime or not. \n");
-        printf("Press 2: End the program \n");
+        printf("Press 0: End the program \n");
         scanf("%d", &choice);
 
         if (choice == 1) {
@@ -17,7 +17,7 @@ int main() {
                 printf("0 is not a prime number\n");
                 goto lable;
             }
-        for (int i = 2; i <= sqrt(num); i++) {
+        for (int i = 2; i <= sqrt(num); i++) {  
             if (num % i == 0) {
                 status = 1;
                 break;

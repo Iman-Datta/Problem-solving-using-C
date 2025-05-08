@@ -5,7 +5,7 @@ int main() {
 
     // Ask for name
     printf("Enter your name: ");
-    fgets(name, sizeof(name), stdin);  // Read string input (including spaces)
+    gets(name);  // Read string input (including spaces)
 
     // Print the name
     printf("Hello %s", name);
